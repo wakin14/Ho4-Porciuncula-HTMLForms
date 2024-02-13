@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0; 
+    background-color: blueviolet;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+
+.box {
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #333;
+}
+.box2{
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #333;
+}
+input {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px; /* Adjust the line-height to vertically center the text */
+    height: 30px; /* Set the height of the input field */
+}
+    
